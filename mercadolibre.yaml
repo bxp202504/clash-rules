@@ -1,0 +1,73 @@
+# Mercado Libre (美客多) 域名规则
+# 更新时间: 2024-12-27
+# 维护说明: 此文件包含美客多生态系统的所有相关域名
+# 使用方式: 通过 rule-providers 引用此文件
+
+payload:
+  # ========== 核心电商平台 ==========
+  - '+.mercadolibre.com'
+  - '+.mercadolibre.com.ar'
+  - '+.mercadolibre.com.mx'
+  - '+.mercadolibre.com.br'
+  - '+.mercadolibre.com.co'
+  - '+.mercadolibre.cl'
+  - '+.mercadolibre.com.ve'
+  - '+.mercadolibre.com.pe'
+  - '+.mercadolibre.com.ec'
+  - '+.mercadolibre.com.uy'
+  - '+.mercadolibre.com.pa'
+  - '+.mercadolibre.com.bo'
+  - '+.mercadolibre.com.py'
+  - '+.mercadolibre.com.cr'
+  - '+.mercadolibre.com.do'
+  - '+.mercadolibre.com.gt'
+  - '+.mercadolibre.com.hn'
+  - '+.mercadolibre.com.ni'
+  - '+.mercadolibre.com.sv'
+
+  # ========== 支付服务 (Mercado Pago) ==========
+  - '+.mercadopago.com'
+  - '+.mercadopago.com.ar'
+  - '+.mercadopago.com.mx'
+  - '+.mercadopago.com.br'
+  - '+.mercadopago.com.co'
+  - '+.mercadopago.cl'
+  - '+.mercadopago.com.pe'
+  - '+.mercadopago.com.uy'
+
+  # ========== 商店服务 (Mercado Shops) ==========
+  - '+.mercadoshops.com'
+  - '+.mercadoshops.com.ar'
+  - '+.mercadoshops.com.mx'
+  - '+.mercadoshops.com.br'
+  - '+.mercadoshops.cl'
+
+  # ========== 静态资源和CDN ==========
+  - '+.mlstatic.com'
+  - '+.meli.com'
+  - '+.melidata.com'
+  - '+.meliuz.com.br'
+
+  # ========== 物流服务 (Mercado Envios) ==========
+  - '+.mercadoenvios.com'
+  - '+.mercadoenvios.com.ar'
+  - '+.mercadoenvios.com.mx'
+  - '+.mercadoenvios.com.br'
+
+  # ========== 广告和营销 ==========
+  - '+.mercadoads.com'
+  - '+.mercadolibreads.com'
+  - '+.mercadoclics.com'
+
+  # ========== 金融服务 ==========
+  - '+.mercadocredito.com'
+  - '+.mercadocredito.com.ar'
+  - '+.mercadocredito.com.mx'
+  - '+.mercadocredito.com.br'
+  - '+.mercadofondo.com'
+  - '+.mercadopuntos.com'
+
+  # ========== 开发者和API ==========
+  - '+.developers.mercadolibre.com'
+  - '+.api.mercadolibre.com'
+  - '+.auth.mercadolibre.com'
