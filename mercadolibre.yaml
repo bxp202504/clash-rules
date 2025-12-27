@@ -2,9 +2,10 @@
 # 更新时间: 2024-12-27
 # 维护说明: 此文件包含美客多生态系统的所有相关域名
 # 使用方式: 通过 rule-providers 引用此文件
+# 注意: mercadolibre = 西班牙语, mercadolivre = 葡萄牙语(巴西)
 
 payload:
-  # ========== 核心电商平台 ==========
+  # ========== 核心电商平台 (西班牙语: mercadolibre) ==========
   - '+.mercadolibre.com'
   - '+.mercadolibre.com.ar'
   - '+.mercadolibre.com.mx'
@@ -24,6 +25,12 @@ payload:
   - '+.mercadolibre.com.hn'
   - '+.mercadolibre.com.ni'
   - '+.mercadolibre.com.sv'
+
+  # ========== 核心电商平台 (葡萄牙语: mercadolivre - 巴西专用) ==========
+  - '+.mercadolivre.com'
+  - '+.mercadolivre.com.br'
+  - '+.mercadolivre.com.mx'
+  - '+.produto.mercadolivre.com.br'
 
   # ========== 支付服务 (Mercado Pago) ==========
   - '+.mercadopago.com'
