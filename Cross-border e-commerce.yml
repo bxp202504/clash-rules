@@ -1,0 +1,70 @@
+# Amazon (亚马逊) 全球电商及服务域名规则
+# 更新时间: 2024-05-22
+# 维护说明: 此文件包含亚马逊全球电商站点、静态资源、支付及数字服务
+# 使用方式: 通过 rule-providers 引用此文件
+
+payload:
+  # ========== 全球核心电商平台 (按地区划分) ==========
+  # 北美与南美
+  - '+.amazon.com'      # 美国 (主站)
+  - '+.amazon.ca'       # 加拿大
+  - '+.amazon.com.mx'    # 墨西哥
+  - '+.amazon.com.br'    # 巴西
+  
+  # 欧洲
+  - '+.amazon.co.uk'    # 英国
+  - '+.amazon.de'       # 德国
+  - '+.amazon.fr'       # 法国
+  - '+.amazon.it'       # 意大利
+  - '+.amazon.es'       # 西班牙
+  - '+.amazon.nl'       # 荷兰
+  - '+.amazon.se'       # 瑞典
+  - '+.amazon.pl'       # 波兰
+  - '+.amazon.be'       # 比利时
+  - '+.amazon.com.tr'    # 土耳其
+  
+  # 亚洲、中东及大洋洲
+  - '+.amazon.co.jp'    # 日本
+  - '+.amazon.in'       # 印度
+  - '+.amazon.sg'       # 新加坡
+  - '+.amazon.ae'       # 阿联酋
+  - '+.amazon.sa'       # 沙特
+  - '+.amazon.com.au'    # 澳大利亚
+  - '+.amazon.eg'       # 埃及
+
+  # ========== 短域名与跳转 ==========
+  - '+.amzn.to'         # 官方短链接
+  - '+.amzn.com'
+  - '+.a.co'            # 极简跳转域名
+
+  # ========== 静态资源与 CDN (加载网页必选) ==========
+  # 这些域名负责加载产品图片、CSS 和 JavaScript，如果不代理它们，网页会显示异常
+  - '+.media-amazon.com'
+  - '+.ssl-images-amazon.com'
+  - '+.images-amazon.com'
+  - '+.completion.amazon.com'
+  - '+.amazon-adsystem.com'
+  - '+.assoc-amazon.com'
+
+  # ========== 支付与金融服务 ==========
+  - '+.amazonpay.com'
+  - '+.amazonpay.in'
+  - '+.amazonpayments.com'
+
+  # ========== 亚马逊核心生态及数字服务 ==========
+  - '+.primevideo.com'  # Prime 视频
+  - '+.audible.com'     # 有声读物
+  - '+.kindle.com'      # Kindle 服务
+  - '+.amazon.jobs'     # 招聘服务
+  - '+.amazonservices.com' # 卖家服务
+
+  # ========== 开发者与 API (AWS 相关) ==========
+  # 注意：如果您的业务涉及大量 AWS 生产环境，建议将 AWS 规则独立出来
+  - '+.amazonaws.com'
+  - '+.amazontrust.com'
+  - '+.amazon.dev'
+  - '+.mws.amazonservices.com'
+
+  # ========== 广告与营销 ==========
+  - '+.amazon-advertising.com'
+  - '+.z.com.amazon.images'
