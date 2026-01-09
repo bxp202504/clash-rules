@@ -1,61 +1,39 @@
-# Amazon (亚马逊) 全球电商及服务域名规则
-# 格式优化：适配 behavior: domain
-
 payload:
-  # ========== 全球核心电商平台 ==========
-  - amazon.com
-  - amazon.ca
-  - amazon.com.mx
-  - amazon.com.br
-  - amazon.co.uk
-  - amazon.de
-  - amazon.fr
-  - amazon.it
-  - amazon.es
-  - amazon.nl
-  - amazon.se
-  - amazon.pl
-  - amazon.be
-  - amazon.com.tr
-  - amazon.co.jp
-  - amazon.in
-  - amazon.sg
-  - amazon.ae
-  - amazon.sa
-  - amazon.com.au
-  - amazon.eg
-
-  # ========== 短域名与跳转 ==========
-  - amzn.to
-  - amzn.com
-  - a.co
-
-  # ========== 静态资源与 CDN (网页加载关键) ==========
-  - media-amazon.com
-  - ssl-images-amazon.com
-  - images-amazon.com
-  - completion.amazon.com
-  - amazon-adsystem.com
-  - assoc-amazon.com
-
-  # ========== 支付与金融服务 ==========
-  - amazonpay.com
-  - amazonpay.in
-  - amazonpayments.com
-
-  # ========== 亚马逊核心生态及数字服务 ==========
-  - primevideo.com
-  - audible.com
-  - kindle.com
-  - amazon.jobs
-  - amazonservices.com
-
-  # ========== 开发者与 API (AWS 相关) ==========
-  - amazonaws.com
-  - amazontrust.com
-  - amazon.dev
-  - mws.amazonservices.com
-
-  # ========== 广告与营销 ==========
-  - amazon-advertising.com
-  - z.com.amazon.images
+  # 使用 DOMAIN-SUFFIX 可以匹配域名本身及其所有子域名
+  - DOMAIN-SUFFIX,amazon.com
+  - DOMAIN-SUFFIX,amazon.co.jp
+  - DOMAIN-SUFFIX,amazon.ca
+  - DOMAIN-SUFFIX,amazon.com.mx
+  - DOMAIN-SUFFIX,amazon.com.br
+  - DOMAIN-SUFFIX,amazon.co.uk
+  - DOMAIN-SUFFIX,amazon.de
+  - DOMAIN-SUFFIX,amazon.fr
+  - DOMAIN-SUFFIX,amazon.it
+  - DOMAIN-SUFFIX,amazon.es
+  - DOMAIN-SUFFIX,amazon.nl
+  - DOMAIN-SUFFIX,amazon.se
+  - DOMAIN-SUFFIX,amazon.pl
+  - DOMAIN-SUFFIX,amazon.be
+  - DOMAIN-SUFFIX,amazon.com.tr
+  - DOMAIN-SUFFIX,amazon.in
+  - DOMAIN-SUFFIX,amazon.sg
+  - DOMAIN-SUFFIX,amazon.ae
+  - DOMAIN-SUFFIX,amazon.sa
+  - DOMAIN-SUFFIX,amazon.com.au
+  - DOMAIN-SUFFIX,amazon.eg
+  - DOMAIN-SUFFIX,amzn.to
+  - DOMAIN-SUFFIX,amzn.com
+  - DOMAIN-SUFFIX,a.co
+  - DOMAIN-SUFFIX,media-amazon.com
+  - DOMAIN-SUFFIX,ssl-images-amazon.com
+  - DOMAIN-SUFFIX,images-amazon.com
+  - DOMAIN-SUFFIX,amazonpay.com
+  - DOMAIN-SUFFIX,amazonpay.in
+  - DOMAIN-SUFFIX,amazonpayments.com
+  - DOMAIN-SUFFIX,primevideo.com
+  - DOMAIN-SUFFIX,audible.com
+  - DOMAIN-SUFFIX,kindle.com
+  - DOMAIN-SUFFIX,amazonaws.com
+  - DOMAIN-SUFFIX,amazonservices.com
+  - DOMAIN-SUFFIX,amazon-adsystem.com
+  - DOMAIN-SUFFIX,amazon-advertising.com
