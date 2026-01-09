@@ -1,0 +1,61 @@
+# Amazon (亚马逊) 全球电商及服务域名规则
+# 格式优化：适配 behavior: domain
+
+payload:
+  # ========== 全球核心电商平台 ==========
+  - amazon.com
+  - amazon.ca
+  - amazon.com.mx
+  - amazon.com.br
+  - amazon.co.uk
+  - amazon.de
+  - amazon.fr
+  - amazon.it
+  - amazon.es
+  - amazon.nl
+  - amazon.se
+  - amazon.pl
+  - amazon.be
+  - amazon.com.tr
+  - amazon.co.jp
+  - amazon.in
+  - amazon.sg
+  - amazon.ae
+  - amazon.sa
+  - amazon.com.au
+  - amazon.eg
+
+  # ========== 短域名与跳转 ==========
+  - amzn.to
+  - amzn.com
+  - a.co
+
+  # ========== 静态资源与 CDN (网页加载关键) ==========
+  - media-amazon.com
+  - ssl-images-amazon.com
+  - images-amazon.com
+  - completion.amazon.com
+  - amazon-adsystem.com
+  - assoc-amazon.com
+
+  # ========== 支付与金融服务 ==========
+  - amazonpay.com
+  - amazonpay.in
+  - amazonpayments.com
+
+  # ========== 亚马逊核心生态及数字服务 ==========
+  - primevideo.com
+  - audible.com
+  - kindle.com
+  - amazon.jobs
+  - amazonservices.com
+
+  # ========== 开发者与 API (AWS 相关) ==========
+  - amazonaws.com
+  - amazontrust.com
+  - amazon.dev
+  - mws.amazonservices.com
+
+  # ========== 广告与营销 ==========
+  - amazon-advertising.com
+  - z.com.amazon.images
