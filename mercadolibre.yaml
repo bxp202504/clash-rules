@@ -80,3 +80,5 @@ payload:
   - '+.auth.mercadolibre.com'
   # ========== 赛盈独立站 ==========
 - DOMAIN-SUFFIX,saleyee.com
+ - '+.saleyee.com'
+
