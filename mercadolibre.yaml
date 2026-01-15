@@ -25,6 +25,7 @@ payload:
   - '+.mercadolibre.com.hn'
   - '+.mercadolibre.com.ni'
   - '+.mercadolibre.com.sv'
+  - '+.saleyee.com'
 
   # ========== 核心电商平台 (葡萄牙语: mercadolivre - 巴西专用) ==========
   - '+.mercadolivre.com'
@@ -81,4 +82,5 @@ payload:
   # ========== 赛盈独立站 ==========
 - DOMAIN-SUFFIX,saleyee.com
  - '+.saleyee.com'
+
 
